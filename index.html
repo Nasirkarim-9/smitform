@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMIT Admission Form</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <div class="form-container">
+        <div class="header">
+            <img src="https://www.saylaniwelfare.com/static/media/logo_saylaniwelfare.22bf709605809177256c.png" alt="Saylani Logo">
+            <h1>SMIT Admission Form</h1>
+            <p>Registration for Web, App, and AI Courses</p>
+        </div>
+
+        <form action="#">
+            <div class="row">
+                <div class="input-group">
+                    <label>Full Name</label>
+                    <input type="text" placeholder="Enter your name" required>
+                </div>
+                <div class="input-group">
+                    <label>Father's Name</label>
+                    <input type="text" placeholder="Enter father's name" required>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="input-group">
+                    <label>Email Address</label>
+                    <input type="email" placeholder="example@mail.com" required>
+                </div>
+                <div class="input-group">
+                    <label>Phone Number</label>
+                    <input type="tel" placeholder="03xx-xxxxxxx" required>
+                </div>
+            </div>
+
+            <div class="input-group">
+                <label>Select Course</label>
+                <select required>
+                    <option value="">-- Choose a Course --</option>
+                    <option value="wma">Web & Mobile App Development</option>
+                    <option value="python">Python & AI</option>
+                    <option value="graphics">Graphic Designing</option>
+                    <option value="ccna">CCNA Networking</option>
+                </select>
+            </div>
+
+            <div class="input-group">
+                <label>Address</label>
+                <textarea rows="3" placeholder="Enter your full address"></textarea>
+            </div>
+
+            <button type="submit" class="submit-btn">Submit Application</button>
+        </form>
+    </div>
+
+</body>
+</html>
